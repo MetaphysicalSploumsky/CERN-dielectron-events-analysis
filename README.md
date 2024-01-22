@@ -1,4 +1,4 @@
-# Determining the Invariant Mass of Particles Using Machine Learning and a Collision Dataset
+# Determining the Invariant Mass of Particles Using Machine Learning 
 
 ## Intro 
 
