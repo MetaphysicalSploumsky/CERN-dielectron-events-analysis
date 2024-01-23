@@ -26,13 +26,13 @@ My initial attempt consisted in an ensemble of three gradient boosting algorithm
 
 In light of this, I went with CatBoost as standalone model, as it was the best performing of the three. Using Optuna and RandomizedSearchCV, the hyperparameters were tuned to: {'subsample': 0.7, 'l2_leaf_reg': 6.0, 'iterations': 2000, 'depth': 4, 'colsample_bylevel': 1.0}. I also decided to go with a full-dimensional set of features (d = 26), instead of reducing dimensionality. 
 
-## acknowledgements
+## Acknowledgements
 
 I would like to underline Danny Bozbay work, as I drew a lot of inspiration from his analysis and learned a lot from his notebook. You can find it all here: https://www.kaggle.com/code/danielbozbay/cern-data-end-to-end-gradient-boosting-0-9-rmse
 
 ## Cool Papers 
 
-Here are two insightful papers I read before starting to work, as I wanted to know the "why" and "how" behind dielectron events. I recommend, as a fun activity, or as something that may push you towards the discovery of a lifetime.
+Here are two insightful papers I read before starting to work, as I wanted to know the "why" and "how" behind dielectron events. I recommend, they're a pleasant read.
 
 - Search for large extra dimensions in dimuon and dielectron events in pp collisions at s=7 TeV, CMS Collaboration et al. Physics Letters B, Volume 711, Issue 1, 2012, Pages 15-34, ISSN 0370-2693, https://doi.org/10.1016/j.physletb.2012.03.029.(https://www.sciencedirect.com/science/article/pii/S0370269312003036)
 - Dielectron and heavy-quark production in inelastic and high-multiplicity proton–proton collisions at s=13TeV, Alice Collaboration, Physics Letters B, Volume 788, 2019,Pages 505-518, ISSN 0370-2693, https://doi.org/10.1016/j.physletb.2018.11.009.(https://www.sciencedirect.com/science/article/pii/S0370269318308475)
